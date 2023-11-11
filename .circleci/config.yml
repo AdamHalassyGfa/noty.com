@@ -5,6 +5,21 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/configuration-reference/#jobs
 jobs:
+  build:
+    environment:
+      GRADLE_OPTS: "-Dorg.gradle.daemon=false -Dorg.gradle.workers.max=2"
+    docker:
+      - image: cimg/openjdk:19.0.1
+    steps:
+      - checkout
+      - run:
+          name: "gradle build"
+          command: ./gradlew $GRADLE_OPTS clean bootJar
+      - persist_to_workspace:
+          root: .
+          paths: 
+            - build
+
   say-hello:
     # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/configuration-reference/#executor-job
@@ -24,6 +39,10 @@ jobs:
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
+  publish-to-dockerhub:
+    jobs:
+      - build
   say-hello-workflow:
     jobs:
       - say-hello
+      
