@@ -36,6 +36,8 @@ jobs:
       - run:
           name: "gradle test"
           command: sh ./gradlew $GRADLE_OPTS test
+      - store_test_results:
+          path: build/test-results
       - persist_to_workspace:
           root: .
           paths: 
