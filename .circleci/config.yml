@@ -43,6 +43,25 @@ jobs:
           paths: 
             - build
 
+  publish:
+    working_directory: ~/gfa.noty.com/src/com.noty.web
+    docker:
+      - image: docker:24.0.7-git
+    steps:
+      - checkout
+      - setup_remote_docker
+      - attach_workspace:
+          at: .
+      - run:
+          name: "build image"
+          command: docker build -t $DOCKER_REPO --pull --build-arg JAR_FILE=build/libs/noty_web-*.jar -f Dockerfile .
+      - run:
+          name: "docker login"
+          command: echo "$DOCKER_PAT" | docker login -u $DOCKER_USR --password-stdin
+      - run:
+          name: "publish image"
+          command: docker image push --all-tags $DOCKER_REPO
+
   say-hello:
     # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/configuration-reference/#executor-job
@@ -68,6 +87,10 @@ workflows:
       - test:
           requires:
             - build
+      - publish:
+          requires:
+            - test
+      
   say-hello-workflow:
     jobs:
       - say-hello
