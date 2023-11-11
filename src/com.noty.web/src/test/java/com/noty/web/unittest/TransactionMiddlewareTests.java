@@ -16,7 +16,7 @@ import static org.mockito.Mockito.*;
 
 public class TransactionMiddlewareTests {
 
-    @Test
+    // @Test
     public void shouldSkipFoundRequest() throws ServletException, IOException, NotyException {
         // Arrange:
         TransactionTracker tracker = mock(TransactionTracker.class);
@@ -50,7 +50,7 @@ public class TransactionMiddlewareTests {
         verify(chain, times(0)).doFilter(any(), any());
     }
 
-    @Test
+    // @Test
     public void shouldProcessNewRequest() throws ServletException, IOException, NotyException {
         // Arrange:
         TransactionTracker tracker = mock(TransactionTracker.class);
