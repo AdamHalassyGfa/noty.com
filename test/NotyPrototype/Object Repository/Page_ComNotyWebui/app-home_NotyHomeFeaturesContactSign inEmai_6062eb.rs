@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>app-home_NotyHomeFeaturesContactSign inEmai_6062eb</name>
+   <tag></tag>
+   <elementGuidId>bcef307a-4e9d-4224-9e0f-4508aa908c86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>app-home</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-home</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>app-home</value>
+      <webElementGuid>0499ac2f-1b12-45f2-b771-17255618a80c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NotyHomeFeaturesContactSign inEmail addressEnter a valid e-mail address.Password Sign in Don't have an account? Sign up!Terms &amp; Conditions · Privacy Policy</value>
+      <webElementGuid>6d25c56f-f223-4278-82df-58369940afe3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;d-flex h-100 text-white bg-dark&quot;]/app-root[1]/app-home[1]</value>
+      <webElementGuid>169d26e1-f535-4ce0-ac47-5e467d017a1c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-home</value>
+      <webElementGuid>4e247472-86ec-4487-af38-080cec1ecd9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//app-home[(text() = concat(&quot;NotyHomeFeaturesContactSign inEmail addressEnter a valid e-mail address.Password Sign in Don&quot; , &quot;'&quot; , &quot;t have an account? Sign up!Terms &amp; Conditions · Privacy Policy&quot;) or . = concat(&quot;NotyHomeFeaturesContactSign inEmail addressEnter a valid e-mail address.Password Sign in Don&quot; , &quot;'&quot; , &quot;t have an account? Sign up!Terms &amp; Conditions · Privacy Policy&quot;))]</value>
+      <webElementGuid>1a5db6d5-5090-44be-a0cb-a2b5067013c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

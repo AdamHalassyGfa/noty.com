@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef55a39b-fe09-483b-81f1-b432f8e89263</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2baff9c5-7b8e-4b6d-a6e3-80426d7e357d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test5@ahala.org'</defaultValue>
+      <description></description>
+      <id>2baff9c5-7b8e-4b6d-a6e3-80426d7e357d</id>
+      <masked>false</masked>
+      <name>test_user_name</name>
+   </variable>
+</TestCaseEntity>

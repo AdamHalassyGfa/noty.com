@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Noty SignUp test,Chrome 121.0.0.0,,,10-02-2024 14:31:39,10-02-2024 14:31:53,14.052s,PASSED
+,,,,,,,
+Test Cases/Register,Chrome 121.0.0.0,,,10-02-2024 14:31:40,10-02-2024 14:31:48,8.839s,PASSED
+now = new java.util.Date(),Chrome 121.0.0.0,,,10-02-2024 14:31:40,10-02-2024 14:31:40,0.012s,PASSED
+"user_name = ""test+"" + now.getTime() + ""@test.ahala.org""",Chrome 121.0.0.0,,,10-02-2024 14:31:40,10-02-2024 14:31:40,0.113s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 14:31:40,10-02-2024 14:31:42,1.801s,PASSED
+"navigateToUrl(""http://me.ahala.org:8080/home/landing"")",Chrome 121.0.0.0,,,10-02-2024 14:31:42,10-02-2024 14:31:42,0.472s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/a_Lets go""))",Chrome 121.0.0.0,,,10-02-2024 14:31:42,10-02-2024 14:31:43,0.462s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/a_Sign up""))",Chrome 121.0.0.0,,,10-02-2024 14:31:43,10-02-2024 14:31:43,0.547s,PASSED
+"setText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Sign up_email""), user_name)",Chrome 121.0.0.0,,,10-02-2024 14:31:43,10-02-2024 14:31:44,0.907s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Email_password""), ""373N5QL8KVQ="")",Chrome 121.0.0.0,,,10-02-2024 14:31:44,10-02-2024 14:31:45,0.631s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/input_Choose Password_acceptTermsAndConditions""))",Chrome 121.0.0.0,,,10-02-2024 14:31:45,10-02-2024 14:31:46,0.534s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/input_Do you accept our terms and condition_457717""))",Chrome 121.0.0.0,,,10-02-2024 14:31:46,10-02-2024 14:31:46,0.316s,PASSED
+"waitForElementClickable(findTestObject(""Page_ComNotyWebui/button_Go to your notes""), 1, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:31:46,10-02-2024 14:31:46,0.484s,PASSED
+"verifyElementClickable(findTestObject(""Page_ComNotyWebui/button_Go to your notes""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:31:46,10-02-2024 14:31:47,0.281s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/button_Go to your notes""))",Chrome 121.0.0.0,,,10-02-2024 14:31:47,10-02-2024 14:31:47,0.309s,PASSED
+"waitForElementVisible(findTestObject(""Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you""), 2, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:31:47,10-02-2024 14:31:48,1.027s,PASSED
+"verifyElementVisible(findTestObject(""Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:31:48,10-02-2024 14:31:48,0.284s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 14:31:48,10-02-2024 14:31:48,0.147s,PASSED
+,,,,,,,
+Test Cases/Sing in,Chrome 121.0.0.0,In this test we'll test the sign in process with an already existing user.,,10-02-2024 14:31:48,10-02-2024 14:31:53,4.991s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 14:31:49,10-02-2024 14:31:49,0.821s,PASSED
+"navigateToUrl(""http://me.ahala.org:8080/home/landing"")",Chrome 121.0.0.0,,,10-02-2024 14:31:49,10-02-2024 14:31:50,0.499s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/a_Lets go""))",Chrome 121.0.0.0,,,10-02-2024 14:31:50,10-02-2024 14:31:50,0.491s,PASSED
+"setText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Sign up_email""), user_name)",Chrome 121.0.0.0,,,10-02-2024 14:31:50,10-02-2024 14:31:51,0.879s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Email_password""), ""373N5QL8KVQ="")",Chrome 121.0.0.0,,,10-02-2024 14:31:51,10-02-2024 14:31:52,0.557s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/button_Sign in""))",Chrome 121.0.0.0,,,10-02-2024 14:31:52,10-02-2024 14:31:52,0.510s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ComNotyWebui/p_dashboard works""), 5, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:31:52,10-02-2024 14:31:53,0.998s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 14:31:53,10-02-2024 14:31:53,0.127s,PASSED

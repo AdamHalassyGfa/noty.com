@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Noty SignUp test" time="18.159" tests="3" failures="0" errors="0">
+   <testsuite name="Noty SignUp test" tests="3" failures="0" errors="0" time="18.159" skipped="0" timestamp="10-02-2024T14:42:22" hostname="adamh - rig-adam" id="Test Suites/Noty SignUp test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="R:\\repo\\noty.com\\test\\NotyPrototype\\Reports\\20240210_144212\\Noty SignUp test\\20240210_144212"/>
+         <property name="logFiles" value="R:\\repo\\noty.com\\test\\NotyPrototype\\Reports\\20240210_144212\\Noty SignUp test\\20240210_144212\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="adamh - rig-adam"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.8.0.2"/>
+         <property name="sessionId" value="f93d9cc118ac5b16368a2a517edcbc45"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register" time="8.525" classname="Test Cases/Register" status="PASSED">
+         <system-out><![CDATA[10-02-2024T14:42:23 - [TEST_CASE][PASSED] - Test Cases/Register: Test Cases/Register
+
+10-02-2024T14:42:23 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+10-02-2024T14:42:23 - [TEST_STEP][PASSED] - user_name = "test+" + now.getTime() + "@test.ahala.org": null
+
+10-02-2024T14:42:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T14:42:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T14:42:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T14:42:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T14:42:25 - [TEST_STEP][PASSED] - navigateToUrl("http://me.ahala.org:8080/home/landing"): Navigate to 'http://me.ahala.org:8080/home/landing' successfully
+
+10-02-2024T14:42:25 - [MESSAGE][PASSED] - Navigate to 'http://me.ahala.org:8080/home/landing' successfully
+
+10-02-2024T14:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/a_Lets go")): Object: 'Object Repository/Page_ComNotyWebui/a_Lets go' is clicked on
+
+10-02-2024T14:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/a_Lets go' is clicked on
+
+10-02-2024T14:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/a_Sign up")): Object: 'Object Repository/Page_ComNotyWebui/a_Sign up' is clicked on
+
+10-02-2024T14:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/a_Sign up' is clicked on
+
+10-02-2024T14:42:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ComNotyWebui/input_Sign up_email"), user_name): Text 'test+1707572543628@test.ahala.org' is set on object 'Object Repository/Page_ComNotyWebui/input_Sign up_email'
+
+10-02-2024T14:42:27 - [MESSAGE][PASSED] - Text 'test+1707572543628@test.ahala.org' is set on object 'Object Repository/Page_ComNotyWebui/input_Sign up_email'
+
+10-02-2024T14:42:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ComNotyWebui/input_Email_password"), test_password): Text ****** has been set on object 'Object Repository/Page_ComNotyWebui/input_Email_password'
+
+10-02-2024T14:42:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ComNotyWebui/input_Email_password'
+
+10-02-2024T14:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/input_Choose Password_acceptTermsAndConditions")): Object: 'Object Repository/Page_ComNotyWebui/input_Choose Password_acceptTermsAndConditions' is clicked on
+
+10-02-2024T14:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/input_Choose Password_acceptTermsAndConditions' is clicked on
+
+10-02-2024T14:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/input_Do you accept our terms and condition_457717")): Object: 'Object Repository/Page_ComNotyWebui/input_Do you accept our terms and condition_457717' is clicked on
+
+10-02-2024T14:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/input_Do you accept our terms and condition_457717' is clicked on
+
+10-02-2024T14:42:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_ComNotyWebui/button_Go to your notes"), 1, STOP_ON_FAILURE): Object 'Object Repository/Page_ComNotyWebui/button_Go to your notes' is clickable
+
+10-02-2024T14:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ComNotyWebui/button_Go to your notes' is clickable
+
+10-02-2024T14:42:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_ComNotyWebui/button_Go to your notes"), STOP_ON_FAILURE): Object 'Object Repository/Page_ComNotyWebui/button_Go to your notes' is clickable
+
+10-02-2024T14:42:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ComNotyWebui/button_Go to your notes' is clickable
+
+10-02-2024T14:42:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/button_Go to your notes")): Object: 'Object Repository/Page_ComNotyWebui/button_Go to your notes' is clicked on
+
+10-02-2024T14:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/button_Go to your notes' is clicked on
+
+10-02-2024T14:42:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you"), 2, STOP_ON_FAILURE): Object 'Object Repository/Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you' is visible
+
+10-02-2024T14:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you' is visible
+
+10-02-2024T14:42:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you"), STOP_ON_FAILURE): Object 'Object Repository/Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you' is visible
+
+10-02-2024T14:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you' is visible
+
+10-02-2024T14:42:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T14:42:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sing in" time="4.665" classname="Test Cases/Sing in" status="PASSED">
+         <system-out><![CDATA[10-02-2024T14:42:31 - [TEST_CASE][PASSED] - Test Cases/Sing in: Test Cases/Sing in
+
+10-02-2024T14:42:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T14:42:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T14:42:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T14:42:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T14:42:32 - [TEST_STEP][PASSED] - navigateToUrl("http://me.ahala.org:8080/home/landing"): Navigate to 'http://me.ahala.org:8080/home/landing' successfully
+
+10-02-2024T14:42:32 - [MESSAGE][PASSED] - Navigate to 'http://me.ahala.org:8080/home/landing' successfully
+
+10-02-2024T14:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/a_Lets go")): Object: 'Object Repository/Page_ComNotyWebui/a_Lets go' is clicked on
+
+10-02-2024T14:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/a_Lets go' is clicked on
+
+10-02-2024T14:42:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ComNotyWebui/input_Sign up_email"), user_name): Text 'test+1707572543628@test.ahala.org' is set on object 'Object Repository/Page_ComNotyWebui/input_Sign up_email'
+
+10-02-2024T14:42:34 - [MESSAGE][PASSED] - Text 'test+1707572543628@test.ahala.org' is set on object 'Object Repository/Page_ComNotyWebui/input_Sign up_email'
+
+10-02-2024T14:42:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ComNotyWebui/input_Email_password"), test_password): Text ****** has been set on object 'Object Repository/Page_ComNotyWebui/input_Email_password'
+
+10-02-2024T14:42:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ComNotyWebui/input_Email_password'
+
+10-02-2024T14:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/button_Sign in")): Object: 'Object Repository/Page_ComNotyWebui/button_Sign in' is clicked on
+
+10-02-2024T14:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/button_Sign in' is clicked on
+
+10-02-2024T14:42:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ComNotyWebui/p_dashboard works"), 5, STOP_ON_FAILURE): Object 'Object Repository/Page_ComNotyWebui/p_dashboard works' is present
+
+10-02-2024T14:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ComNotyWebui/p_dashboard works' is present
+
+10-02-2024T14:42:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T14:42:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sing in - Bad Password" time="4.73" classname="Test Cases/Sing in - Bad Password" status="PASSED">
+         <system-out><![CDATA[10-02-2024T14:42:36 - [TEST_CASE][PASSED] - Test Cases/Sing in - Bad Password: Test Cases/Sing in - Bad Password
+
+10-02-2024T14:42:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T14:42:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T14:42:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T14:42:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T14:42:37 - [TEST_STEP][PASSED] - navigateToUrl("http://me.ahala.org:8080/home/landing"): Navigate to 'http://me.ahala.org:8080/home/landing' successfully
+
+10-02-2024T14:42:37 - [MESSAGE][PASSED] - Navigate to 'http://me.ahala.org:8080/home/landing' successfully
+
+10-02-2024T14:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/a_Lets go")): Object: 'Object Repository/Page_ComNotyWebui/a_Lets go' is clicked on
+
+10-02-2024T14:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/a_Lets go' is clicked on
+
+10-02-2024T14:42:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ComNotyWebui/input_Sign up_email"), user_name): Text 'test+1707572543628@test.ahala.org' is set on object 'Object Repository/Page_ComNotyWebui/input_Sign up_email'
+
+10-02-2024T14:42:39 - [MESSAGE][PASSED] - Text 'test+1707572543628@test.ahala.org' is set on object 'Object Repository/Page_ComNotyWebui/input_Sign up_email'
+
+10-02-2024T14:42:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ComNotyWebui/input_Email_password"), "4DY6ru+/ER23gOmv0IKEmw=="): Text ****** has been set on object 'Object Repository/Page_ComNotyWebui/input_Email_password'
+
+10-02-2024T14:42:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ComNotyWebui/input_Email_password'
+
+10-02-2024T14:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ComNotyWebui/button_Sign in")): Object: 'Object Repository/Page_ComNotyWebui/button_Sign in' is clicked on
+
+10-02-2024T14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ComNotyWebui/button_Sign in' is clicked on
+
+10-02-2024T14:42:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ComNotyWebui/div_User not found"), 5, STOP_ON_FAILURE): Object 'Object Repository/Page_ComNotyWebui/div_User not found' is present
+
+10-02-2024T14:42:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ComNotyWebui/div_User not found' is present
+
+10-02-2024T14:42:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T14:42:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-02-2024T14:42:22 - [TEST_SUITE][PASSED] - Noty SignUp test: Test Cases/Sing in - Bad Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

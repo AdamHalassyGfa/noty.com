@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In this test we'll test the sign in process with an already existing user.</description>
+   <name>Sing in</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b08281a-b304-4cdd-8494-19c3704b7a27</testCaseGuid>
+</TestCaseEntity>

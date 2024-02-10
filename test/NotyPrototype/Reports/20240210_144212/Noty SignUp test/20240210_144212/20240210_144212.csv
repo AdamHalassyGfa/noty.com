@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Noty SignUp test,Chrome 121.0.0.0,,,10-02-2024 14:42:22,10-02-2024 14:42:41,18.159s,PASSED
+,,,,,,,
+Test Cases/Register,Chrome 121.0.0.0,,,10-02-2024 14:42:23,10-02-2024 14:42:31,8.525s,PASSED
+now = new java.util.Date(),Chrome 121.0.0.0,,,10-02-2024 14:42:23,10-02-2024 14:42:23,0.010s,PASSED
+"user_name = ""test+"" + now.getTime() + ""@test.ahala.org""",Chrome 121.0.0.0,,,10-02-2024 14:42:23,10-02-2024 14:42:23,0.125s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 14:42:23,10-02-2024 14:42:25,1.669s,PASSED
+"navigateToUrl(""http://me.ahala.org:8080/home/landing"")",Chrome 121.0.0.0,,,10-02-2024 14:42:25,10-02-2024 14:42:25,0.519s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/a_Lets go""))",Chrome 121.0.0.0,,,10-02-2024 14:42:25,10-02-2024 14:42:26,0.426s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/a_Sign up""))",Chrome 121.0.0.0,,,10-02-2024 14:42:26,10-02-2024 14:42:26,0.541s,PASSED
+"setText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Sign up_email""), user_name)",Chrome 121.0.0.0,,,10-02-2024 14:42:26,10-02-2024 14:42:27,0.884s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Email_password""), test_password)",Chrome 121.0.0.0,,,10-02-2024 14:42:27,10-02-2024 14:42:28,0.595s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/input_Choose Password_acceptTermsAndConditions""))",Chrome 121.0.0.0,,,10-02-2024 14:42:28,10-02-2024 14:42:28,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/input_Do you accept our terms and condition_457717""))",Chrome 121.0.0.0,,,10-02-2024 14:42:28,10-02-2024 14:42:29,0.308s,PASSED
+"waitForElementClickable(findTestObject(""Page_ComNotyWebui/button_Go to your notes""), 1, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:42:29,10-02-2024 14:42:29,0.472s,PASSED
+"verifyElementClickable(findTestObject(""Page_ComNotyWebui/button_Go to your notes""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:42:29,10-02-2024 14:42:29,0.281s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/button_Go to your notes""))",Chrome 121.0.0.0,,,10-02-2024 14:42:29,10-02-2024 14:42:30,0.304s,PASSED
+"waitForElementVisible(findTestObject(""Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you""), 2, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:42:30,10-02-2024 14:42:31,1.028s,PASSED
+"verifyElementVisible(findTestObject(""Page_ComNotyWebui/Page_ComNotyWebui/h1_Thank you""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:42:31,10-02-2024 14:42:31,0.283s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 14:42:31,10-02-2024 14:42:31,0.150s,PASSED
+,,,,,,,
+Test Cases/Sing in,Chrome 121.0.0.0,In this test we'll test the sign in process with an already existing user.,,10-02-2024 14:42:31,10-02-2024 14:42:36,4.665s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 14:42:31,10-02-2024 14:42:32,0.712s,PASSED
+"navigateToUrl(""http://me.ahala.org:8080/home/landing"")",Chrome 121.0.0.0,,,10-02-2024 14:42:32,10-02-2024 14:42:33,0.459s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/a_Lets go""))",Chrome 121.0.0.0,,,10-02-2024 14:42:33,10-02-2024 14:42:33,0.453s,PASSED
+"setText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Sign up_email""), user_name)",Chrome 121.0.0.0,,,10-02-2024 14:42:33,10-02-2024 14:42:34,0.854s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Email_password""), test_password)",Chrome 121.0.0.0,,,10-02-2024 14:42:34,10-02-2024 14:42:34,0.561s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/button_Sign in""))",Chrome 121.0.0.0,,,10-02-2024 14:42:34,10-02-2024 14:42:35,0.525s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ComNotyWebui/p_dashboard works""), 5, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:42:35,10-02-2024 14:42:36,0.898s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 14:42:36,10-02-2024 14:42:36,0.128s,PASSED
+,,,,,,,
+Test Cases/Sing in - Bad Password,Chrome 121.0.0.0,In this test we'll test the sign in process with an already existing user.,,10-02-2024 14:42:36,10-02-2024 14:42:41,4.730s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 14:42:36,10-02-2024 14:42:37,0.757s,PASSED
+"navigateToUrl(""http://me.ahala.org:8080/home/landing"")",Chrome 121.0.0.0,,,10-02-2024 14:42:37,10-02-2024 14:42:37,0.443s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/a_Lets go""))",Chrome 121.0.0.0,,,10-02-2024 14:42:37,10-02-2024 14:42:38,0.455s,PASSED
+"setText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Sign up_email""), user_name)",Chrome 121.0.0.0,,,10-02-2024 14:42:38,10-02-2024 14:42:39,0.876s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ComNotyWebui/input_Email_password""), ""4DY6ru+/ER23gOmv0IKEmw=="")",Chrome 121.0.0.0,,,10-02-2024 14:42:39,10-02-2024 14:42:39,0.554s,PASSED
+"click(findTestObject(""Object Repository/Page_ComNotyWebui/button_Sign in""))",Chrome 121.0.0.0,,,10-02-2024 14:42:39,10-02-2024 14:42:40,0.508s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ComNotyWebui/div_User not found""), 5, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,10-02-2024 14:42:40,10-02-2024 14:42:40,0.891s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 14:42:40,10-02-2024 14:42:41,0.160s,PASSED

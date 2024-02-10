@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Go to your notes</name>
+   <tag></tag>
+   <elementGuidId>6133f647-d76c-4544-b007-6e27541846a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.w-100.btn.btn-lg.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c5e0b387-c11a-4751-aa0d-8f8bbf10b1bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>0b428a03-4751-41a5-b427-c10308ab704e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 btn btn-lg btn-primary</value>
+      <webElementGuid>33cec085-30e1-4034-b0fe-4b62298999e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Go to your notes!</value>
+      <webElementGuid>c31ae1e5-d357-4380-96b5-c11bb5d72130</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;d-flex h-100 text-white bg-dark&quot;]/app-root[1]/app-home[1]/div[@class=&quot;cover-container d-flex w-100 h-100 p-3 mx-auto flex-column&quot;]/main[@class=&quot;px-3&quot;]/app-signup[1]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/fieldset[1]/button[@class=&quot;w-100 btn btn-lg btn-primary&quot;]</value>
+      <webElementGuid>8412f198-25ee-4671-9809-889a8f638bf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>8ee765b7-feae-4a29-897c-dc309edee4b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you accept or privacy policy?'])[1]/following::button[1]</value>
+      <webElementGuid>c749ca1e-bc90-47f2-b2ac-f331915d085d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you accept our terms and conditions?'])[1]/following::button[1]</value>
+      <webElementGuid>bb411951-31d2-4c74-9411-e543bf7e3332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in!'])[1]/preceding::button[1]</value>
+      <webElementGuid>3c7499b1-e00b-48f1-9dd4-f6495f57076c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Go to your notes!']/parent::*</value>
+      <webElementGuid>09b859dc-4867-45ac-bc84-049d21997386</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>d7c9f38f-217b-4380-ab7c-a80701dd0d2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Go to your notes!' or . = 'Go to your notes!')]</value>
+      <webElementGuid>122c12ce-b0eb-4be1-8bf0-65506bfdede6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

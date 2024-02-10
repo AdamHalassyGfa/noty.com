@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test_user@test.ahala.org'</initValue>
+      <name>user_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'373N5QL8KVQ='</initValue>
+      <name>test_password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
